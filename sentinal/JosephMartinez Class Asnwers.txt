@@ -1,0 +1,13 @@
+A. (a_n-1)*9. This is because we have a_n-1 choices for a valid string and we have 9 choices of numbers to add to that string
+
+B.10^n-(a_n-1)*1=10^n-(a_n-1). This is because we have 10^n total possible ways of creating a string of n length, and a_n-1 of those are valid strings, 
+so if we subtract the total number of valid strings from the total number of possible strings, we get the total possible invalid strings and we multiply
+this by the number of possible things we can add this, but since we are only adding 0, there is only one possibility.
+
+C.a_n=a_n-1*9 or a_n=10^n-a_n-1
+
+Prop 23.1: All solutions to the recurrence relation a_n=s(a_n-1)+t where s/=1 
+have the form a_n=(c_1)*(s^n)+c_2 where c_1 and c_2 are specific numbers.
+
+Prop 23.3: The solution to the recurrence relation a_n=a_n-1+t is a_n=a_0+nt
+
